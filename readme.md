@@ -10,7 +10,7 @@ A plugin use to roll the dice.
 Rolling dice
 #### Example
 ```
-rd xdy
+rd <x>d<y>
 rd 2d6
 ```
 
@@ -18,7 +18,7 @@ rd 2d6
 Random number
 #### Example
 ```
-rn &lt;Min&gt; &lt;Max&gt;
+rn <Min> <Max>
 rn 1 10
 ```
 
@@ -26,6 +26,6 @@ rn 1 10
 Random item
 #### Example
 ```
-ri item1 item2 ...
+ri <item1> <item2> ...
 ri Apple Banana Pear
 ```
