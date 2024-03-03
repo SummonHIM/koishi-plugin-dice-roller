@@ -29,3 +29,9 @@ Random item
 ri <item1> <item2> ...
 ri Apple Banana Pear
 ```
+
+## Install
+```
+npm run clone SummonHIM/koishi-plugin-dice-roller
+npm run build dice-roller
+```
