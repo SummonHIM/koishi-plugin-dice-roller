@@ -1,21 +1,36 @@
 {
-  "name": "koishi-plugin-dice-roller",
-  "description": "A plugin use to roll the dice.",
-  "version": "0.0.1",
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
-  "files": [
-    "lib",
-    "dist"
-  ],
-  "license": "MIT",
-  "scripts": {},
-  "keywords": [
-    "chatbot",
-    "koishi",
-    "plugin"
-  ],
-  "peerDependencies": {
-    "koishi": "^4.16.1"
-  }
+    "name": "koishi-plugin-dice-roller",
+    "description": "A plugin use to roll the dice.",
+    "version": "1.0.0",
+    "contributors": [
+        "SummonHIM <summonhim@qq.com>"
+    ],
+    "main": "lib/index.js",
+    "typings": "lib/index.d.ts",
+    "files": [
+        "lib",
+        "dist"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/SummonHIM/koishi-plugin-dice-roller",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SummonHIM/koishi-plugin-dice-roller.git"
+    },
+    "scripts": {},
+    "keywords": [
+        "chatbot",
+        "koishi",
+        "plugin"
+    ],
+    "peerDependencies": {
+        "koishi": "^4.16.1"
+    },
+    "koishi": {
+        "description": {
+          "en": "A plugin use to roll the dice.",
+          "zh": "Koishi 随机数摇骰插件。"
+        },
+        "locales": ["zh"]
+      }
 }
