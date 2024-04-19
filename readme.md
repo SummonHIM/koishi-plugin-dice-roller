@@ -6,7 +6,7 @@ A plugin use to roll the dice.
 
 ## Useage
 
-### rd/摇骰/摇色
+### rd/摇骰子/摇色子
 Rolling dice
 #### Example
 ```
@@ -14,7 +14,7 @@ rd <x>d<y>
 rd 2d6
 ```
 
-### rn/摇数/随机数
+### rn/摇随机数/摇数
 Random number
 #### Example
 ```
@@ -22,7 +22,7 @@ rn <Min> <Max>
 rn 1 10
 ```
 
-### ri/摇物/摇物品
+### ri/摇物品/摇物
 Random item
 #### Example
 ```

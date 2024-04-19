@@ -2,7 +2,7 @@ import { Random } from "koishi";
 
 export default function rd(diceCmd: string): string {
     if (!diceCmd)
-        return "请指定骰子参数。\n使用 help rd 来查询如何使用。"
+        return "请指定骰子参数！\n使用 help rd 来查询如何使用。"
 
     const aDiceCmd = diceCmd.match(/(\d+)d(\d+)/);
     if (aDiceCmd) {
@@ -19,7 +19,7 @@ export default function rd(diceCmd: string): string {
         for (let i = 0; i < diceNum; i++) {
             sumResult += result[i];
             if (diceNum < 15)
-                strResult += i + 1 + " 号骰摇出了 " + result[i] + "。\n";
+                strResult += "- " + (i + 1) + " 号骰摇出了 " + result[i] + "\n";
             else if (i + 1 == diceNum) strResult += result[i];
             else strResult += result[i] + " + ";
         }

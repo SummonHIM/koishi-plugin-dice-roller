@@ -9,5 +9,5 @@ export default function rn(startNum: string, endNum: string): string {
 
     if (startNumber > endNumber) return "起始数不得大于结束数。";
 
-    return "最终结果为 " + Math.abs(Random.int(endNumber, startNumber));
+    return "最终结果为 " + Math.abs(Random.int(endNumber, startNumber)) + "。";
 }
