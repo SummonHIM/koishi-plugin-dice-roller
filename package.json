@@ -18,10 +18,6 @@
         "url": "git+https://github.com/SummonHIM/koishi-plugin-dice-roller.git"
     },
     "scripts": {},
-    "keywords": [
-        "life",
-        "tool"
-    ],
     "peerDependencies": {
         "koishi": "^4.16.1"
     },
