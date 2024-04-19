@@ -1,5 +1,5 @@
 {
-    "name": "koishi-plugin-dice-roller",
+    "name": "@summonhim/koishi-plugin-dice-roller",
     "description": "A plugin use to roll the dice.",
     "version": "1.0.0",
     "contributors": [
@@ -19,17 +19,15 @@
     },
     "scripts": {},
     "keywords": [
-        "chatbot",
-        "koishi",
-        "plugin"
+        "life",
+        "tool"
     ],
     "peerDependencies": {
         "koishi": "^4.16.1"
     },
     "koishi": {
         "description": {
-          "en": "A plugin use to roll the dice.",
-          "zh": "Koishi 随机数摇骰插件。"
+          "zh": "随机数摇骰插件。"
         },
         "locales": ["zh"]
       }
