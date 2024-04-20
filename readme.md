@@ -1,10 +1,10 @@
 # koishi-plugin-dice-roller
 
-<!-- [![npm](https://img.shields.io/npm/v/koishi-plugin-dice-roller?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-dice-roller) -->
+[![npm](https://img.shields.io/npm/v/@summonhim/koishi-plugin-dice-roller?style=flat-square)](https://www.npmjs.com/package/@summonhim/koishi-plugin-dice-roller)
 
 A plugin use to roll the dice.
 
-## Useage
+## Usage
 
 ### rd/摇骰子/摇色子
 Rolling dice
