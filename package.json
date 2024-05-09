@@ -17,14 +17,20 @@
         "type": "git",
         "url": "git+https://github.com/SummonHIM/koishi-plugin-dice-roller.git"
     },
-    "scripts": {},
+    "keywords": [
+        "chatbot",
+        "koishi",
+        "plugin"
+    ],
     "peerDependencies": {
         "koishi": "^4.16.1"
     },
     "koishi": {
         "description": {
-          "zh": "随机数摇骰插件。"
+            "zh": "随机数摇骰插件。"
         },
-        "locales": ["zh"]
-      }
+        "locales": [
+            "zh"
+        ]
+    }
 }
